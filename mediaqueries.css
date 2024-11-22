@@ -1,0 +1,1976 @@
+@media(min-width: 1000px) and (max-width: 1023px){
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(252,252,250,255);
+        font-family: "Montserrat", sans-serif;
+        background-color: rgba(249,248,243,255);
+        box-sizing: border-box;
+    }
+    header{
+       background-color: #fafafa;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #logo img{
+        width: 25vh;
+    }
+    #container-botão{
+     margin-right: 5vh;
+    }
+    .text-btn{
+      
+    }
+    #botão_de_ação{
+        width: 30vh;
+        height: 8vh;
+        border-style: none;
+        text-decoration: none;
+       background-color:  #dfa83b;
+       border-radius: 5px;
+       cursor: pointer;
+    }
+    #botão_de_ação a{
+        text-decoration: none;
+        font-size: 3vh;
+        color: black;
+        font-family: "Montserrat", sans-serif;
+    }
+    #container-banner{
+        margin-top: 5px;
+    }
+    
+    #banner{
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.92) 35%, rgba(255, 255, 255, 0)), url('./pexels-iiii-iiii-10613-54566.jpg');
+       background-size: cover;
+       filter: brightness(1.1);
+        background-position: center right; /* Alinha a imagem à direita */
+      background-size: 200vh;
+      background-size: 100%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        
+        
+        
+    } 
+    #title_banner{
+        margin-bottom: 20vh;
+        padding-left: 5vh;
+    }
+    #text_banner h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 200%;
+       color: #dfa83b;
+       width: 80vh;
+    }
+    
+    #text_banner{
+        font-size: 190%;
+        margin-left: 5vh;
+        color: rgb(248, 248, 248);
+    
+    }
+    #image_banner{
+    display: none;
+    }
+    #Second-Banner{
+        align-items: center;
+        justify-content: center;
+      padding-left: 25%;
+        display: flexbox;
+        height: auto;
+        
+    }
+    .container-title-serviços{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       
+    }
+    #title_serviços h1{
+     margin-top: 10vh;
+        color: #dfa83b;
+        font-size: 270%;
+      background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+      background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+      background-repeat: no-repeat;
+      transition: background-size 1s ease; /* Transição suave */
+      border-radius: 3px;
+     padding-left: 1vh;
+     width: 53vh;
+     padding-left: 2vh;
+     height: 8vh;
+     margin-left: 0%;
+    
+    }
+    #title_serviços h1:hover{
+        background-size: 100% 100%;
+        color: #fafafa;
+    }
+    
+    #hair{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: 90vh;
+        border-radius: 5px;
+        padding-left: 1vh;
+        padding-bottom: 10vh;
+    }
+    #hair h1{
+     color:#dfa83b;
+     font-size: 270%;
+    
+
+    } 
+    .mini-container{ 
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+       
+
+    }
+    
+    #image-cabelo img{ 
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    }
+    #text-hair{
+        
+        font-size: 3vh;
+    }
+
+    #unhas{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+       
+    }
+    #unhas h1{
+        color: #dfa83b;
+       font-size: 270%;
+       
+    }
+  #image-unhas img{ 
+    margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+
+  }
+  #text-unhas{
+    font-size: 3vh;
+  }
+    #Sobrancelha{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+    }
+    #Sobrancelha h1{
+        color: #dfa83b;
+        font-size: 270%;
+    }
+    #image-sobrancelha img{
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    }
+    #text-sobrancelhas{
+        font-size: 3vh;
+    }
+    
+    #Extensão_de_Cilios{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+    }
+    #Extensão_de_Cilios h1{
+        color: #dfa83b;
+        font-size: 270%;
+    }
+    #image-cilios img{
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    }
+    #text-cilios{
+        font-size: 3vh;
+    }
+    
+
+    #Container-quem_somos{
+        display: flexbox;
+        width: 205vh;
+        height: auto;
+        padding-bottom: 2vh;
+        margin-top: 5vh;
+        box-sizing: border-box;
+       
+    }
+    #title-quem-somos{
+        font-size: 6vh;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20vh;
+       color: #dfa83b;
+       box-sizing: border-box;
+       
+    }
+    #subcontainer-quem-somos{
+        display: flex;
+        align-items: center;
+    }
+   #text-desktop{
+    width: 100vh;
+    margin-left: 2vh;
+    height: 90vh;
+    border-radius: 5px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    
+   }
+   /* Animação de marcação */
+
+.container-title{
+    justify-content: center;
+    align-items: center;
+   display: flex;
+}
+#title-quem-somos {
+    display: inline;
+    background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+    background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+    background-repeat: no-repeat;
+    transition: background-size 1s ease; /* Transição suave */
+    border-radius: 3px;
+    width: 50vh;
+    padding-left: 4vh;
+    height: 8vh;
+}
+
+/* Define a cor de fundo no hover */
+#title-quem-somos:hover {
+    background-size: 100% 100%;
+    color: #fafafa;
+   
+}
+
+   #text-boas-vindas{
+    font-size: 150%;
+    
+  
+   }
+    #destaque-boas-vindas{
+        font-size: 200%;
+        font-weight: 700;
+        color: rgb(34, 34, 34);
+    }
+   #image-boas-vindas img{
+    margin-left: 27vh;
+    margin-top: 3vh;
+     width: 60vh;
+   }
+   #button-action2{
+   border: 2px solid #dfa83b;
+   width: 50vh;
+   height: 10vh;
+   border-radius: 5px;
+   margin-left: 25vh;
+   font-weight: 500;
+   margin-bottom: 30vh;
+   display: inline;
+    background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+    background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+    background-repeat: no-repeat;
+    transition: background-size 1s ease; /* Transição suave */
+    border-radius: 3px;
+    width: 50vh;
+  padding-right: 2vh;
+    padding-top: 4vh;
+    height: 10vh;
+   color: black;
+   cursor: pointer;
+
+   }
+   #button-action2 a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 180%;
+    margin-top: 20vh;
+    margin-left: 5vh;
+    color: #dfa83b;
+    
+   }
+   #button-action2:hover a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 180%;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    color: #fafafa;
+    
+   }
+
+   #button-action2:hover{ 
+    background-size: 100% 100%;
+    color: #fafafa;
+  
+   }
+    #container-social_media{
+        display: flexbox;
+        margin-top: 2vh;
+
+    }
+    #container-social_media h1{
+        color: #dfa83b;
+
+    }
+    .fa-instagram{
+        font-size: 10vh;
+    }
+    .fa-instagram:hover{
+        color: #dfa83b;
+        transition: 0.3s;
+    }
+    #container-social_media a{ 
+        color: black; 
+
+
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.90);
+        padding: 20px 50vh;
+        color: #fefefe;
+        font-family: Arial, sans-serif;
+        
+    }
+    
+    /* Container do footer */
+    .footer-container {
+        align-items: center;
+        
+    }
+    .direitos{
+        color: #fefefe;
+        margin-left: 10%;
+       
+        width: 70vh;
+        
+    }
+    
+}
+@media(width: 1024px) and (min-height: 1366px){
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(252,252,250,255);
+        font-family: "Montserrat", sans-serif;
+        background-color: rgba(249,248,243,255);
+        box-sizing: border-box;
+    }
+    header{
+       background-color: #fafafa;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #logo img{
+        width: 25vh;
+    }
+    #container-botão{
+     margin-right: 5vh;
+    }
+    .text-btn{
+      
+    }
+    #botão_de_ação{
+        width: 30vh;
+        height: 8vh;
+        border-style: none;
+        text-decoration: none;
+       background-color:  #dfa83b;
+       border-radius: 5px;
+       cursor: pointer;
+    }
+    #botão_de_ação a{
+        text-decoration: none;
+        font-size: 3vh;
+        color: black;
+        font-family: "Montserrat", sans-serif;
+    }
+    #container-banner{
+        margin-top: 5px;
+    }
+    
+    #banner{
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.92) 35%, rgba(255, 255, 255, 0)), url('./pexels-iiii-iiii-10613-54566.jpg');
+       background-size: cover;
+       filter: brightness(1.1);
+        background-position: center right; /* Alinha a imagem à direita */
+      background-size: 200vh;
+      background-size: 100%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        
+        
+        
+    } 
+    #title_banner{
+        margin-bottom: 20vh;
+        padding-left: 5vh;
+    }
+    #text_banner h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 200%;
+       color: #dfa83b;
+       width: 80vh;
+    }
+    
+    #text_banner{
+        font-size: 190%;
+        margin-left: 5vh;
+        color: rgb(248, 248, 248);
+    
+    }
+    #image_banner{
+    display: none;
+    }
+    #Second-Banner{
+        align-items: center;
+        justify-content: center;
+      padding-left: 25%;
+        display: flexbox;
+        height: auto;
+        
+    }
+    .container-title-serviços{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       
+    }
+    #title_serviços h1{
+     margin-top: 10vh;
+        color: #dfa83b;
+        font-size: 270%;
+      background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+      background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+      background-repeat: no-repeat;
+      transition: background-size 1s ease; /* Transição suave */
+      border-radius: 3px;
+     padding-left: 1vh;
+     width: 53vh;
+     padding-left: 2vh;
+     height: 8vh;
+     margin-left: 0%;
+    
+    }
+    #title_serviços h1:hover{
+        background-size: 100% 100%;
+        color: #fafafa;
+    }
+    
+    #hair{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: 90vh;
+        border-radius: 5px;
+        padding-left: 1vh;
+        padding-bottom: 10vh;
+    }
+    #hair h1{
+     color:#dfa83b;
+     font-size: 270%;
+    
+
+    } 
+    .mini-container{ 
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+       
+
+    }
+    
+    #image-cabelo img{ 
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    }
+    #text-hair{
+        
+        font-size: 3vh;
+    }
+
+    #unhas{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+       
+    }
+    #unhas h1{
+        color: #dfa83b;
+       font-size: 270%;
+       
+    }
+  #image-unhas img{ 
+    margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+
+  }
+  #text-unhas{
+    font-size: 3vh;
+  }
+    #Sobrancelha{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+    }
+    #Sobrancelha h1{
+        color: #dfa83b;
+        font-size: 270%;
+    }
+    #image-sobrancelha img{
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    }
+    #text-sobrancelhas{
+        font-size: 3vh;
+    }
+    
+    #Extensão_de_Cilios{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+    }
+    #Extensão_de_Cilios h1{
+        color: #dfa83b;
+        font-size: 270%;
+    }
+    #image-cilios img{
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    }
+    #text-cilios{
+        font-size: 3vh;
+    }
+    
+
+    #Container-quem_somos{
+        display: flexbox;
+        width: 205vh;
+        height: auto;
+        padding-bottom: 2vh;
+        margin-top: 5vh;
+        box-sizing: border-box;
+       
+    }
+    #title-quem-somos{
+        font-size: 6vh;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20vh;
+       color: #dfa83b;
+       box-sizing: border-box;
+       
+    }
+    #subcontainer-quem-somos{
+        display: flex;
+        align-items: center;
+    }
+   #text-desktop{
+    width: 100vh;
+    margin-left: 2vh;
+    height: 90vh;
+    border-radius: 5px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    
+   }
+   /* Animação de marcação */
+
+.container-title{
+    justify-content: center;
+    align-items: center;
+   display: flex;
+}
+#title-quem-somos {
+    display: inline;
+    background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+    background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+    background-repeat: no-repeat;
+    transition: background-size 1s ease; /* Transição suave */
+    border-radius: 3px;
+    width: 50vh;
+    padding-left: 4vh;
+    height: 8vh;
+}
+
+/* Define a cor de fundo no hover */
+#title-quem-somos:hover {
+    background-size: 100% 100%;
+    color: #fafafa;
+   
+}
+
+   #text-boas-vindas{
+    font-size: 150%;
+    
+  
+   }
+    #destaque-boas-vindas{
+        font-size: 200%;
+        font-weight: 700;
+        color: rgb(34, 34, 34);
+    }
+   #image-boas-vindas img{
+    margin-left: 27vh;
+    margin-top: 3vh;
+     width: 60vh;
+   }
+   #button-action2{
+   border: 2px solid #dfa83b;
+   width: 50vh;
+   height: 10vh;
+   border-radius: 5px;
+   margin-left: 25vh;
+   font-weight: 500;
+   margin-bottom: 30vh;
+   display: inline;
+    background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+    background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+    background-repeat: no-repeat;
+    transition: background-size 1s ease; /* Transição suave */
+    border-radius: 3px;
+    width: 50vh;
+  padding-right: 2vh;
+    padding-top: 4vh;
+    height: 10vh;
+   color: black;
+   cursor: pointer;
+
+   }
+   #button-action2 a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 180%;
+    margin-top: 20vh;
+    margin-left: 5vh;
+    color: #dfa83b;
+    
+   }
+   #button-action2:hover a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 180%;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    color: #fafafa;
+    
+   }
+
+   #button-action2:hover{ 
+    background-size: 100% 100%;
+    color: #fafafa;
+  
+   }
+    #container-social_media{
+        display: flexbox;
+        margin-top: 2vh;
+
+    }
+    #container-social_media h1{
+        color: #dfa83b;
+
+    }
+    .fa-instagram{
+        font-size: 10vh;
+    }
+    .fa-instagram:hover{
+        color: #dfa83b;
+        transition: 0.3s;
+    }
+    #container-social_media a{ 
+        color: black; 
+
+
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.90);
+        padding: 20px 50vh;
+        color: #fefefe;
+        font-family: Arial, sans-serif;
+        
+    }
+    
+    /* Container do footer */
+    .footer-container {
+        align-items: center;
+        
+    }
+    .direitos{
+        color: #fefefe;
+        margin-left: 10%;
+        width: 70vh;
+        
+    }
+    
+}
+@media(min-width: 1024px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(252,252,250,255);
+        font-family: "Montserrat", sans-serif;
+        background-color: rgba(249,248,243,255);
+        box-sizing: border-box;
+        
+    }
+    header{
+       background-color: #fafafa;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #logo img{
+        width: 40vh;
+    }
+    #container-botão{
+     margin-right: 5vh;
+    }
+    
+    #botão_de_ação{
+        width: 50vh;
+        height: 15vh;
+        border-style: none;
+        text-decoration: none;
+       background-color:  #dfa83b;
+       border-radius: 5px;
+       cursor: pointer;
+    }
+    #botão_de_ação a{
+        text-decoration: none;
+        font-size: 5vh;
+        color: black;
+        font-family: "Montserrat", sans-serif;
+    }
+    #container-banner{
+        margin-top: 5px;
+    }
+    
+    #banner{
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.92) 35%, rgba(255, 255, 255, 0)), url('./pexels-iiii-iiii-10613-54566.jpg');
+       background-size: cover;
+       filter: brightness(1.1);
+        background-position: center right; /* Alinha a imagem à direita */
+      background-size: 200vh;
+      background-size: 100%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 130%;
+        height: 600px;
+        
+        
+        
+    } 
+    #title_banner{
+        margin-bottom: 20vh;
+        padding-left: 5vh;
+    }
+    #text_banner h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 200%;
+       color: #dfa83b;
+       width: 80vh;
+    }
+    
+    #text_banner{
+        font-size: 190%;
+        margin-left: 5vh;
+        color: rgb(248, 248, 248);
+    
+    }
+    #image_banner{
+    display: none;
+    }
+    #Second-Banner{
+        align-items: center;
+        justify-content: center;
+      padding-left: 25%;
+        display: flexbox;
+        height: auto;
+        
+    }
+    .container-title-serviços{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       
+    }
+    #title_serviços h1{
+     margin-top: 10vh;
+        color: #dfa83b;
+        font-size: 290%;
+      background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+      background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+      background-repeat: no-repeat;
+      transition: background-size 1s ease; /* Transição suave */
+      border-radius: 3px;
+     
+     width: 70vh;
+     padding-left: 5vh;
+     height: 5vh;
+     margin-left: 15%;
+    
+    
+    }
+    #title_serviços h1:hover{
+        background-size: 100% 100%;
+        color: #fafafa; 
+        height: 5vh;
+    }
+    
+    #hair{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        padding-left: 1vh;
+        padding-bottom: 10vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #hair h1{
+     color:#dfa83b;
+     font-size: 220%;
+    
+
+    } 
+    .mini-container{ 
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+       
+
+    }
+    
+    #image-cabelo img{ 
+        margin-top: 3vh;
+        width: 210px; /* Defina o tamanho desejado para a imagem */
+    height: 210px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    margin-left: 1vh;
+    }
+    #text-hair{
+        
+        font-size: 4vh;
+    }
+
+    #unhas{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+        justify-content: center;
+        align-items: center;
+    
+        
+       
+    }
+    #unhas h1{
+        color: #dfa83b;
+       font-size: 220%;
+       
+    }
+  #image-unhas img{ 
+    margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    margin-left: 1vh;
+
+  }
+  #text-unhas{
+    font-size: 4vh;
+  }
+    #Sobrancelha{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #Sobrancelha h1{
+        color: #dfa83b;
+        font-size: 220%;
+    }
+    #image-sobrancelha img{
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    margin-left: 1vh;
+    }
+    #text-sobrancelhas{
+        font-size: 4vh;
+    }
+    
+    #Extensão_de_Cilios{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+        margin-left: 2vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #Extensão_de_Cilios h1{
+        color: #dfa83b;
+        font-size: 220%;
+        width: 70%;
+    }
+    #image-cilios img{
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    margin-left: 1vh;
+    }
+    #text-cilios{
+        font-size: 4vh;
+    }
+    
+
+    #Container-quem_somos{
+        display: flex;
+        width: 205vh;
+        height: auto;
+        padding-bottom: 2vh;
+        margin-top: 5vh;
+        box-sizing: border-box;
+       
+    }
+    #title-quem-somos{
+        font-size: 290%;
+        font-weight: bold;
+        
+        margin-top: 20vh;
+       color: #dfa83b;
+       box-sizing: border-box;
+       
+       
+    }
+    #subcontainer-quem-somos{
+        display: flex;
+        align-items: center;
+    }
+   #text-desktop{
+    width: 100vh;
+    margin-left: 2vh;
+    height: 90vh;
+    border-radius: 5px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    
+   }
+   /* Animação de marcação */
+
+.container-title{
+    justify-content: center;
+    align-items: center;
+   display: flex;
+}
+#title-quem-somos {
+    display: inline;
+    background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+    background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+    background-repeat: no-repeat;
+    transition: background-size 1s ease; /* Transição suave */
+    border-radius: 3px;
+    width: 70vh;
+    padding-left: 5vh;
+    height: 11vh;
+    margin-left: 20vh;
+}
+
+/* Define a cor de fundo no hover */
+#title-quem-somos:hover {
+    background-size: 100% 100%;
+    color: #fafafa;
+   
+}
+
+   #text-boas-vindas{
+    font-size: 150%;
+    
+  
+   }
+    #destaque-boas-vindas{
+        font-size: 200%;
+        font-weight: 700;
+        color: rgb(34, 34, 34);
+    }
+   #image-boas-vindas img{
+    margin-left: 27vh;
+    margin-top: 3vh;
+     width: 60vh;
+   }
+   #button-action2{
+   border: 2px solid #dfa83b;
+   width: 50vh;
+   height: 10vh;
+   border-radius: 5px;
+   margin-left: 25vh;
+   font-weight: 500;
+   margin-bottom: 30vh;
+   display: inline;
+    background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+    background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+    background-repeat: no-repeat;
+    transition: background-size 1s ease; /* Transição suave */
+    border-radius: 3px;
+    width: 60vh;
+  padding-right: 2vh;
+    padding-top: 4vh;
+    height: 7vh;
+   color: black;
+   cursor: pointer;
+
+   }
+   #button-action2 a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 180%;
+    margin-top: 20vh;
+    margin-left: 5vh;
+    color: #dfa83b;
+    
+   }
+   #button-action2:hover a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 180%;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    color: #fafafa;
+    
+   }
+
+   #button-action2:hover{ 
+    background-size: 100% 100%;
+    color: #fafafa;
+  
+   }
+    #container-social_media{
+        display: flexbox;
+        margin-top: 2vh;
+        margin-left: 3vh;
+
+    }
+    #container-social_media h1{
+        color: #dfa83b;
+
+    }
+    .fa-instagram{
+        font-size: 10vh;
+    }
+    .fa-instagram:hover{
+        color: #dfa83b;
+        transition: 0.3s;
+    }
+    #container-social_media a{ 
+        color: black; 
+
+
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.90);
+        padding: 20px 50vh;
+        color: #fefefe;
+        font-family: Arial, sans-serif;
+        
+    }
+    
+    /* Container do footer */
+    .footer-container {
+        align-items: center;
+        
+    }
+    .direitos{
+        color: #fefefe;
+        margin-left: 10%;
+      
+        width: 90vh;
+        
+    }
+    
+}
+@media(min-width: 1024px) and (height:1366px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(252,252,250,255);
+        font-family: "Montserrat", sans-serif;
+        background-color: rgba(249,248,243,255);
+        box-sizing: border-box;
+        
+    }
+    header{
+       background-color: #fafafa;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300%;
+      
+    }
+    #logo img{
+        width: 40vh;
+    }
+    #container-botão{
+     margin-right: 5vh;
+    }
+    
+    #botão_de_ação{
+        width: 50vh;
+        height: 15vh;
+        border-style: none;
+        text-decoration: none;
+       background-color:  #dfa83b;
+       border-radius: 5px;
+       cursor: pointer;
+    }
+    #botão_de_ação a{
+        text-decoration: none;
+        font-size: 5vh;
+        color: black;
+        font-family: "Montserrat", sans-serif;
+    }
+    #container-banner{
+        margin-top: 5px;
+        
+    }
+    
+    #banner{
+        background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.92) 10%, rgba(255, 255, 255, 0)), url('./pexels-iiii-iiii-10613-54566.jpg');
+       background-size: cover;
+       filter: brightness(1.1);
+        background-position: center, top; /* Alinha a imagem à direita */
+      background-size: 100vh;
+      background-repeat: no-repeat;
+      background-size: 100%, 100%;
+        justify-content: space-between;
+        display: flexbox;
+        align-items: center;
+        width: 300%;
+       height: 100rem;
+        
+        
+        
+    } 
+    #title_banner{
+        margin-bottom: 50vh;
+        padding-left: 5vh;
+        font-size: 300%;
+    }
+    #text_banner h1{
+        font-family: "Montserrat", sans-serif;
+        
+       color: #dfa83b;
+       width: 80vh;
+    }
+    
+    #text_banner{
+       
+        margin-left: 5vh;
+        color: rgb(248, 248, 248);
+    
+    }
+    #image_banner{
+    display: none;
+    }
+    #Second-Banner{
+        align-items: center;
+        justify-content: center;
+      padding-left: 50%;
+        display: flexbox;
+        height: auto;
+        
+    }
+    .container-title-serviços{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       
+    }
+    #title_serviços h1{
+     margin-top: 10vh;
+        color: #dfa83b;
+        font-size: 800%;
+      background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+      background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+      background-repeat: no-repeat;
+      transition: background-size 1s ease; /* Transição suave */
+      border-radius: 3px;
+     
+     width: 85vh;
+     padding-left: 5vh;
+     height: 7vh;
+     margin-left: 60%;
+    
+    
+    }
+    #title_serviços h1:hover{
+        background-size: 100% 100%;
+        color: #fafafa; 
+        height: 7vh;
+    }
+    
+    #hair{
+        border: 2px solid #dfa83b; 
+        width: 120vh;
+        height: auto;
+        border-radius: 5px;
+        padding-left: 1vh;
+        padding-bottom: 10vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #hair h1{
+     color:#dfa83b;
+     font-size: 350%;
+    
+
+    } 
+    .mini-container{ 
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+       
+
+    }
+    
+    #image-cabelo img{ 
+        margin-top: 3vh;
+        width: 500px; /* Defina o tamanho desejado para a imagem */
+    height: 500px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    margin-left: 1vh;
+    }
+    #text-hair{
+        
+        font-size: 5vh;
+    }
+
+    #unhas{
+        border: 2px solid #dfa83b; 
+        width: 120vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+        justify-content: center;
+        align-items: center;
+    
+        
+       
+    }
+    #unhas h1{
+        color: #dfa83b;
+       font-size: 350%;
+       
+    }
+  #image-unhas img{ 
+    margin-top: 3vh;
+        width: 500px; /* Defina o tamanho desejado para a imagem */
+    height: 500px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    margin-left: 1vh;
+
+  }
+  #text-unhas{
+    font-size: 5vh;
+  }
+    #Sobrancelha{
+        border: 2px solid #dfa83b; 
+        width: 120vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #Sobrancelha h1{
+        color: #dfa83b;
+        font-size: 350%;
+    }
+    #image-sobrancelha img{
+        margin-top: 3vh;
+        width: 500px; /* Defina o tamanho desejado para a imagem */
+    height: 500px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    margin-left: 1vh;
+    }
+    #text-sobrancelhas{
+        font-size: 5vh;
+    }
+    
+    #Extensão_de_Cilios{
+        border: 2px solid #dfa83b; 
+        width: 120vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+        margin-left: 2vh;
+        justify-content: center;
+        align-items: center;
+    }
+    #Extensão_de_Cilios h1{
+        color: #dfa83b;
+        font-size: 350%;
+        width: 70%;
+    }
+    #image-cilios img{
+        margin-top: 3vh;
+        width: 500px; /* Defina o tamanho desejado para a imagem */
+    height: 500px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    margin-left: 1vh;
+    }
+    #text-cilios{
+        font-size: 5vh;
+    }
+    
+
+    #Container-quem_somos{
+        display: flexbox;
+        width: 250vh;
+        height: auto;
+        padding-bottom: 2vh;
+        margin-top: 5vh;
+        box-sizing: border-box;
+       border: 2px solid yellow;
+    }
+    #title-quem-somos{
+        font-size: 700%;
+        font-weight: bold;
+        margin-top: 20vh;
+       color: #dfa83b;
+       box-sizing: border-box;
+       
+       
+    }
+    #subcontainer-quem-somos{
+        display: flexbox;
+        align-items: center;
+    }
+   #text-desktop{
+    width: 100vh;
+    margin-left: 2vh;
+    height: 90vh;
+    border-radius: 5px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    
+   }
+   /* Animação de marcação */
+
+.container-title{
+    justify-content: center;
+    align-items: center;
+   display: flex;
+}
+#title-quem-somos {
+    display: inline;
+    background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+    background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+    background-repeat: no-repeat;
+    transition: background-size 1s ease; /* Transição suave */
+    border-radius: 3px;
+    width: 300vh;
+    padding-left: 5vh;
+    height: 11vh;
+    margin-left: 100vh;
+}
+
+/* Define a cor de fundo no hover */
+#title-quem-somos:hover {
+    background-size: 100% 100%;
+    color: #fafafa;
+   
+}
+
+   #text-boas-vindas{
+    font-size: 150%;
+    
+  
+   }
+    #destaque-boas-vindas{
+        font-size: 200%;
+        font-weight: 700;
+        color: rgb(34, 34, 34);
+    }
+   #image-boas-vindas img{
+    margin-left: 27vh;
+    margin-top: 3vh;
+     width: 60vh;
+   }
+   #button-action2{
+   
+   width: 1000% !important;
+   height: 5vh;
+   border-radius: 5px;
+   margin-left: 50vh;
+   font-weight: 500;
+   
+   background-color: #dfa83b;
+    
+    border-radius: 3px;
+   
+  padding-right: 2vh;
+    padding-top: 4vh;
+  
+   color: black;
+   cursor: pointer;
+
+   }
+   #button-action2 a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 600%;
+    margin-top: 20vh;
+    margin-left: 5vh;
+    color: #fafafa;
+    
+   }
+  
+
+  
+    #container-social_media{
+        display: flexbox;
+        margin-top: 2vh;
+        margin-left: 3vh;
+
+    }
+    #container-social_media h1{
+        color: #dfa83b;
+
+    }
+    .fa-instagram{
+        font-size: 10vh;
+    }
+    .fa-instagram:hover{
+        color: #dfa83b;
+        transition: 0.3s;
+    }
+    #container-social_media a{ 
+        color: black; 
+
+
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.90);
+        padding: 20px 50vh;
+        color: #fefefe;
+        font-family: Arial, sans-serif;
+        
+    }
+    
+    /* Container do footer */
+    .footer-container {
+        align-items: center;
+        
+    }
+    .direitos{
+        color: #fefefe;
+        margin-left: 10%;
+      
+        width: 90vh;
+        
+    }
+    
+}
+@media(min-width: 1366px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(252,252,250,255);
+        font-family: "Montserrat", sans-serif;
+        background-color: rgba(249,248,243,255);
+        box-sizing: border-box;
+    }
+    header{
+       background-color: #fafafa;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: auto;
+    }
+    #logo img{
+        width: 25vh;
+    }
+    #container-botão{
+     margin-right: 5vh;
+    }
+    .text-btn{
+      
+    }
+    #botão_de_ação{
+        width: 30vh;
+        height: 8vh;
+        border-style: none;
+        text-decoration: none;
+       background-color:  #dfa83b;
+       border-radius: 5px;
+       cursor: pointer;
+    }
+    #botão_de_ação a{
+        text-decoration: none;
+        font-size: 3vh;
+        color: black;
+        font-family: "Montserrat", sans-serif;
+    }
+    #container-banner{
+        margin-top: 5px;
+    }
+    
+    #banner{
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.92) 35%, rgba(255, 255, 255, 0)), url('./pexels-iiii-iiii-10613-54566.jpg');
+       background-size: cover;
+       filter: brightness(1.1);
+        background-position: center right; /* Alinha a imagem à direita */
+      background-size: 200vh;
+      background-size: 100%;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        
+        
+        
+    } 
+    #title_banner{
+        margin-bottom: 20vh;
+        padding-left: 5vh;
+    }
+    #text_banner h1{
+        font-family: "Montserrat", sans-serif;
+        font-size: 200%;
+       color: #dfa83b;
+       width: 80vh;
+    }
+    
+    #text_banner{
+        font-size: 190%;
+        margin-left: 5vh;
+        color: rgb(248, 248, 248);
+    
+    }
+    #image_banner{
+    display: none;
+    }
+    #Second-Banner{
+        align-items: center;
+        justify-content: center;
+      padding-left: 25%;
+        display: flexbox;
+        height: auto;
+        
+    }
+    .container-title-serviços{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+       
+    }
+    #title_serviços h1{
+     margin-top: 10vh;
+        color: #dfa83b;
+        font-size: 270%;
+      background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+      background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+      background-repeat: no-repeat;
+      transition: background-size 1s ease; /* Transição suave */
+      border-radius: 3px;
+     padding-left: 1vh;
+     width: 53vh;
+     padding-left: 2vh;
+     height: 5vh;
+     margin-left: 0%;
+    
+    }
+    #title_serviços h1:hover{
+        background-size: 100% 100%;
+        color: #fafafa;
+    }
+    
+    #hair{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: 90vh;
+        border-radius: 5px;
+        padding-left: 1vh;
+        padding-bottom: 10vh;
+    }
+    #hair h1{
+     color:#dfa83b;
+     font-size: 200%;
+    
+
+    } 
+    .mini-container{ 
+        justify-content: center;
+        align-items: center;
+        display: flex; 
+       
+
+    }
+    
+    #image-cabelo img{ 
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    }
+    #text-hair{
+        
+        font-size: 3vh;
+    }
+
+    #unhas{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+       
+    }
+    #unhas h1{
+        color: #dfa83b;
+       font-size: 200%;
+       
+    }
+  #image-unhas img{ 
+    margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+
+  }
+  #text-unhas{
+    font-size: 3vh;
+  }
+    #Sobrancelha{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+    }
+    #Sobrancelha h1{
+        color: #dfa83b;
+        font-size: 200%;
+    }
+    #image-sobrancelha img{
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    }
+    #text-sobrancelhas{
+        font-size: 3vh;
+    }
+    
+    #Extensão_de_Cilios{
+        border: 2px solid #dfa83b; 
+        width: 100vh;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 15vh;
+        padding-left: 5px;
+        padding-bottom: 5vh;
+    }
+    #Extensão_de_Cilios h1{
+        color: #dfa83b;
+        font-size: 200%;
+    }
+    #image-cilios img{
+        margin-top: 3vh;
+        width: 190px; /* Defina o tamanho desejado para a imagem */
+    height: 190px; /* Mantenha altura e largura iguais para um círculo perfeito */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem se ajuste bem dentro do círculo */
+    border: 4px solid #dfa83b;
+    }
+    #text-cilios{
+        font-size: 3vh;
+    }
+    
+
+    #Container-quem_somos{
+        display: flexbox;
+        width: 205vh;
+        height: auto;
+        padding-bottom: 2vh;
+        margin-top: 5vh;
+        box-sizing: border-box;
+       
+    }
+    #title-quem-somos{
+        font-size: 6vh;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20vh;
+       color: #dfa83b;
+       box-sizing: border-box;
+       margin-left: 1vh;
+       
+    }
+    #subcontainer-quem-somos{
+        display: flex;
+        align-items: center;
+    }
+   #text-desktop{
+    width: 100vh;
+    margin-left: 2vh;
+    height: 90vh;
+    border-radius: 5px;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    
+   }
+   /* Animação de marcação */
+
+.container-title{
+    justify-content: center;
+    align-items: center;
+   display: flex;
+}
+#title-quem-somos {
+    display: inline;
+    background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+    background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+    background-repeat: no-repeat;
+    transition: background-size 1s ease; /* Transição suave */
+    border-radius: 3px;
+    width: 53vh;
+    padding-left: 4vh;
+    height: 8vh;
+}
+
+/* Define a cor de fundo no hover */
+#title-quem-somos:hover {
+    background-size: 100% 100%;
+    color: #fafafa;
+   
+}
+
+   #text-boas-vindas{
+    font-size: 150%;
+    
+  
+   }
+    #destaque-boas-vindas{
+        font-size: 200%;
+        font-weight: 700;
+        color: rgb(34, 34, 34);
+    }
+   #image-boas-vindas img{
+    margin-left: 27vh;
+    margin-top: 3vh;
+     width: 60vh;
+   }
+   #button-action2{
+   border: 2px solid #dfa83b;
+   width: 50vh;
+   height: 10vh;
+   border-radius: 5px;
+   margin-left: 25vh;
+   font-weight: 500;
+   margin-bottom: 30vh;
+   display: inline;
+    background: linear-gradient(90deg,  #dfa83b 0%,  #dfa83b 100%); /* Gradiente que começa amarelo e termina transparente */
+    background-size: 0% 100%; /* Inicialmente, o gradiente ocupa 0% da largura do elemento */
+    background-repeat: no-repeat;
+    transition: background-size 1s ease; /* Transição suave */
+    border-radius: 3px;
+    width: 50vh;
+  padding-right: 5vh;
+    padding-top: 4vh;
+    height: 6vh;
+   color: black;
+   cursor: pointer;
+
+   }
+   #button-action2 a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 180%;
+    margin-top: 20vh;
+    margin-left: 5vh;
+    color: #dfa83b;
+    
+   }
+   #button-action2:hover a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 180%;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    color: #fafafa;
+    
+   }
+
+   #button-action2:hover{ 
+    background-size: 100% 100%;
+    color: #fafafa;
+  
+   }
+    #container-social_media{
+        display: flexbox;
+        margin-top: 2vh;
+
+    }
+    #container-social_media h1{
+        color: #dfa83b;
+
+    }
+    .fa-instagram{
+        font-size: 10vh;
+    }
+    .fa-instagram:hover{
+        color: #dfa83b;
+        transition: 0.3s;
+    }
+    #container-social_media a{ 
+        color: black; 
+
+
+    }
+    footer {
+        background-color: rgba(0, 0, 0, 0.90);
+        padding: 20px 50vh;
+        color: #fefefe;
+        font-family: Arial, sans-serif;
+        
+    }
+    
+    /* Container do footer */
+    .footer-container {
+        align-items: center;
+        
+    }
+    .direitos{
+        color: #fefefe;
+        margin-left: 10%;
+       
+        width: 70vh;
+        
+    }
+    
+}
