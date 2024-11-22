@@ -115,7 +115,7 @@
     #hair{
         border: 2px solid #dfa83b; 
         width: 100vh;
-        height: 90vh;
+        height: auto;
         border-radius: 5px;
         padding-left: 1vh;
         padding-bottom: 10vh;
